@@ -19,12 +19,11 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #008080
-
-}
+    }
 
 #logo {
   float: left;
-  font-size: 200;
+  font-size: 280;
 }
 
 #menu {
@@ -34,9 +33,9 @@ h1, h2 {
 
 #menu, #logo {
 line-height: 75%;
+padding-top: 10px;
 
 }
-
 
 
 #menu li {
@@ -58,6 +57,31 @@ border-bottom: 1px solid #3a3a3a;
 .active {
     border-bottom: 1px solid #3a3a3a;
 }
+
+#main-outer { 
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding-top: 20px;
+}
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-ketut-subiyanto-4998821.jpg') no-repeat;
+    background-size: 50%, 25%, 25%; 
+
+}
+
+#welcome {
+    display: block;
+
+}
+
+
+
+    
 
 
 
