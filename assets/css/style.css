@@ -81,6 +81,28 @@ border-bottom: 1px solid #3a3a3a;
 }
 
 
+#welcome {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 150%;
+}   
+
+
+hr {
+ width: 100%;
+ margin: 20px
+
+} 
+
+
+
+#at-our-place {
+    text-align: left;
+    margin: 20px 0;
+    font-size: 150%;
+
+}
+
 
 
 
