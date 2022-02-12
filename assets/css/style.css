@@ -24,6 +24,7 @@ h1, h2 {
 #logo {
   float: left;
   font-size: 280;
+  
 }
 
 #menu {
@@ -33,7 +34,7 @@ h1, h2 {
 
 #menu, #logo {
 line-height: 75%;
-padding-top: 10px;
+margin-top: 10px;
 
 }
 
@@ -71,13 +72,15 @@ border-bottom: 1px solid #3a3a3a;
     width: 100%;
     background: url('../images/pexels-ketut-subiyanto-4998821.jpg') no-repeat;
     background-size: 50%, 25%, 25%; 
+    padding-left: 10px;
+}
+
+#yoga-club {
+    height: 600px;
 
 }
 
-#welcome {
-    display: block;
 
-}
 
 
 
