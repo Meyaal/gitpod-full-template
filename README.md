@@ -62,6 +62,9 @@ I confirmed that the colors and fonts chosen are easy to read and accessible by 
 
 Unfixed Bugs
 
+Navbar and header media quires does not work on mobile screen, I tried to fix the bug with different methods and support, but failed to fix it. 
+
+
 
 DEPLOYMENT 
 The site was deployed to GitHub pages, the steps are as follows:
@@ -76,9 +79,6 @@ Credits
 Content 
 The code to make the social media links was taken from the Love Running project.
 The code to make the table was taken from the Coffee Coders project.
-The code to make media quires was taken from the Love Running projekt. 
-The code to make the Submit buttom was taken from the Love Running project. 
-The code to make the form was taken from a site called CSS Forms W3Schools
 The code to make section for hero-image and hero-outer was taken from the Love Running project.
 The code to make the menu was taken from the Love Running project. 
 

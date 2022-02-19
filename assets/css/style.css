@@ -159,6 +159,8 @@ margin: 0 auto;
 float: left;
 padding-left: 10px;
 
+
+
 }
 
 #contact {
@@ -200,7 +202,7 @@ footer {
 	text-align: center;
     width: 100%;
     position: absolute;
-    padding-top: 30px;
+    padding-top: 10px;
     margin-bottom: 30px;
 
 }
