@@ -51,9 +51,10 @@ line-height: 75%;
 
 
 #menu li {
-    float: right;
+    display: flex;
     list-style-type: none;
     margin-right: 30px;
+    flex-direction: column;
 }
 
 #menu a {
@@ -192,10 +193,15 @@ padding-left: 20px;
 background-color: #b0e0e6;
 text-transform: uppercase;
 margin-left: 20px;
-width: 20%;
+width: 80%;
 
 }
 
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
 footer {
     background-color: #008080;
@@ -242,7 +248,7 @@ footer {
 }   
 
 .input-container {
-    max-width: 600px;
+    width: 80%;
     padding: 10px 20px;
     margin: 20px;
     border-radius: 2px;
@@ -253,7 +259,7 @@ footer {
 }
 
 .input-field {
-    width: 600px;
+    width: 80%;
     padding: 5px;
     outline: none;
     border-radius: 15px 15px;
@@ -273,7 +279,7 @@ footer {
 }
 
 
-@media screen and (min-width: 527px) {  
+@media screen and (min-width: 524px) {  
     #menu {
         clear: left;
         display: flex;
@@ -282,9 +288,7 @@ footer {
         line-height: 25px;
    
     }
-
- 
-    #style {
+     #style {
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -304,7 +308,7 @@ h1, h2 {
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 479px) {
     #start {
         text-align: center;
         margin: 20px 0;
