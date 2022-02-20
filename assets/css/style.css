@@ -279,7 +279,7 @@ footer {
 }
 
 
-@media screen and (min-width: 524px) {  
+@media screen and (min-width: 500px) {  
     #menu {
         clear: left;
         display: flex;
