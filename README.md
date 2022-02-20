@@ -4,7 +4,7 @@
 
 Is a webbsite about a yoga studio in Stockholm that offers diffirent levels of Yoga classes. The club offers an joyful enviroment to recover. 
 
-Users of the website will be able to find all information about classes times, contact information and a sign up form and prices. 
+Users of the website will be able to find all information about classes times, contact information, a sign up form and prices. 
 
 
 
@@ -14,13 +14,18 @@ Inline-style:
 
 
 # Navigation 
-The user will se name of the top of page on the left side. On the right side are the menu with home, contact and sign up.
+The user will se name of the top of page on the left side. On the right side are the menu with home, contact and sign up. The navigation gives description about the club underneth the hero image. 
 
-The navigation shows a description about the club underneth the hero image. 
+Inline-style: 
+![alt text](doc/images/screenshot5.png)
 
-The other navigation links are about home page that contains information about what the club offers as well as a timetable for different classes, further down the page, contact information comes to the club.
 
-The navigation clearly tells the user to the name of the club and webbsite and makes the different sections of information easy to find. 
+
+The navigation gives description about the club underneth the hero image. 
+
+The other navigation links are about home page that contains information about what the club offers as well as a timetable for different classes, further down the page, there is contact information  to the club.
+
+The navigation clearly tells the user to the name of the club and website and makes the different sections of information easy to find.
 
 # YOGA CLUB
 
@@ -31,9 +36,18 @@ The header is written with the color Teal. The section gives the user informatio
 
 The contact section gives datails about the important information to get in touch with the club. There is a phone number and a email address. There is a address to visit the club. 
 
+Inline-style: 
+![alt text](doc/images/screenshot6.png)
+
+
+
 # SING UP
 
 When the users click the sing up they will go to another page, page 2. They will find information about the price and a form to complete with first name, last name and email adress. Then they are able to clik on submit buttom to send the form. 
+
+Inline-style: 
+![alt text](doc/images/screenshot7.png)
+
 
 
 # Design
@@ -97,9 +111,9 @@ My Submit buttom is not clickble despite several tries to make it work. I did go
 
 The code might not really be full responsive on a smaller phones screens. The whole image is not seen but only the top part.
 
+# GitHub and Gitpod
 
-
-
+I used Gitpod & GitHub for doing my project. 
 
 # DEPLOYMENT 
 The site was deployed to GitHub pages, the steps are as follows:
@@ -123,3 +137,5 @@ The code to make the menu was taken from the Love Running project.
 # Further development
 
 I would like to develop the page with more information such as images and more detailed information about the different classes and prices. I'll add more of awsome fonts and presentation trainers working there. There is much that can be developed in the page. 
+
+I used screen shot to show my work. I am looking forward to learn new methods to develop my codings skills. 
