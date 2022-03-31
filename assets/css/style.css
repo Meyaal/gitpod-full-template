@@ -3,7 +3,9 @@
 * { 
     margin: 0;
     padding: 0;
-    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
 html, body { 
@@ -19,68 +21,93 @@ body {
  box-sizing: border-box;
 }
 
-/* headings and logo */
+/* headings nav and logo */
+
+nav {
+
+    height: 80px;
+    width: 100%;
+}
+
+label logo {
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+
+}
+
+nav ul li a {
+    color: #008080;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 3px;
+}
+
+a.active, a:hover {
+    background-color: #fff;
+    transition: 5s;
+    border-bottom: 1px solid #000;
+
+}
+
+.checkbtn {
+    font-size: 30px;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+
+}
+
+#check {
+display: none;
+
+}
 
 h1, h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     height: 3rem;
-    color: #008080
+    color: #000;
 }
 
-#logo {
+.logo {
   float: left;
   font-size: 200%;
   padding-top: 20px;
   padding-left: 10px;
+  color: #000;
+  font-weight: bold;
   
 }
 
-#menu {
- font-size: 100%;
- letter-spacing: 4px;
- padding-top: 20px;
-
-}
-
-#menu, #logo {
-line-height: 75%;
-
-}
-
-
-#menu li {
-    display: flex;
-    list-style-type: none;
-    margin-right: 30px;
-    flex-direction: column;
-}
-
-#menu a {
- text-decoration: none;
- color: inherit;
-
-}
-
-#menu a:hover {
-border-bottom: 1px solid #000;
-}
-
-.active {
-    border-bottom: 1px solid #000;
-}
 
 #hero-outer { 
-    height: 600px;
-    width: 100%;
+    max-height: 600px;
+    max-width: 100%;
     overflow: hidden;
     position: relative;
     margin: 0 auto;
 }
 
 #hero-image {
-    height: 600px;
+    height: 37.5rem;
     width: 100%;
     background: url('../images/pexels-ketut-subiyanto-4998821.jpg') no-repeat center center;
     background-size: cover; 
@@ -90,7 +117,7 @@ border-bottom: 1px solid #000;
 }
 
 #our-club {
-    height: 600px;
+    max-height: 600px;
     text-align: left;
     padding-left: 10px;
     
@@ -111,7 +138,7 @@ align-items: center;
 
 hr {
  width: 100%;
- margin: 20px
+ margin: 20px;
 
 } 
 
@@ -138,7 +165,7 @@ hr {
     text-align: left;
     font-size: 100%;
     clear: both;
-    padding-left: 20px;
+    padding-left: 1.25rem;
 
 }
 
@@ -147,7 +174,7 @@ td {
     border: 1px solid black;
     background-color: #afeeee;
     clear: both;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 
     
 }
@@ -165,21 +192,28 @@ padding-left: 10px;
 }
 
 #contact {
-    margin-bottom: 30px;
-    padding-bottom: 30px;
+    margin-bottom: 1.875rem;
+    padding-bottom: 1.875rem;
     display: block;
-    margin-bottom: 20px;
-    padding-left: 30px;
+    margin-bottom: 1.25rem;
+    padding-left: 1.875rem;
 
 
 }
 
 .contact {
 
-    margin-bottom: 50px;
-    padding: 50px 100px;
+    margin-bottom: 3.125rem;
+    padding: 3.125rem 6.25rem;
     display: block;
     justify-content: center;
+
+}
+
+.contact-1 {
+    display: inline-flexbox;
+    justify-content: center;
+    padding: 50px 50px;
 
 }
 
@@ -190,7 +224,7 @@ padding-left: 10px;
 p {
 text-align: left;
 padding-left: 20px;
-background-color: #b0e0e6;
+background-color: #fff;
 text-transform: uppercase;
 margin-left: 20px;
 width: 80%;
@@ -252,18 +286,26 @@ footer {
     padding: 10px 20px;
     margin: 20px;
     border-radius: 2px;
-    border: 3px solid #008080;
+    border: 4px solid #000;
     display: flex;
-    border-radius: 15px 15px;
+    border-radius: 30px 30px;
 
 }
 
+.input-container {
+    max-width: 600px;
+    width: 80%;
+    padding: 10px 20px;
+    margin: 20px;
+
+}
 .input-field {
     width: 80%;
     padding: 5px;
     outline: none;
     border-radius: 15px 15px;
-    background-color: #f5fffa;
+    background-color: #fff;
+
 }
 
 
@@ -279,13 +321,13 @@ footer {
 }
 
 
-@media screen and (min-width: 500px) {  
+@media screen and (max-width: 400px) {  
     #menu {
         clear: left;
         display: flex;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
+        margin-left: 1.875rem;
+        margin-bottom: 1.25rem;
+        line-height: 1.563;
    
     }
      #style {
@@ -294,13 +336,18 @@ footer {
         align-items: center;
         }
 
+        #menu, #logo {
+            line-height: 0.75rem;
+            
+            }
+
 
 h1, h2 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 0.25rem;
     height: 3rem;
-    color: #008080
+    color: #000;
 }
 
     .contact {
