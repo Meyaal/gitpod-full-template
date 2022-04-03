@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
+/*general style*/
 * { 
     margin: 0;
     padding: 0;
@@ -21,7 +22,7 @@ body {
  box-sizing: border-box;
 }
 
-/* headings nav and logo */
+/* header and logo */
 
 h1, h2 {
     font-family: oswald, sans-serif;
@@ -39,7 +40,7 @@ h1, h2 {
   
 }
 
-/* add style to menu */
+/* add style to menu navigation links*/
 
 #menu {
  font-size: 100%;
@@ -59,6 +60,8 @@ line-height: 0.75rem;
     list-style-type: none;
     margin-right: 1.875;
     flex-direction: column;
+    padding: 10px
+
 }
 
 #menu a {
@@ -75,7 +78,7 @@ border-bottom: 1px solid #000;
     border-bottom: 1px solid #000;
 }
 
-
+/* hero outer*/
 
 #hero-outer { 
     max-height: 600px;
@@ -84,6 +87,8 @@ border-bottom: 1px solid #000;
     position: relative;
     margin: 0 auto;
 }
+
+/*main image*/
 
 #hero-image {
     height: 600px;
@@ -94,6 +99,8 @@ border-bottom: 1px solid #000;
 
 
 }
+
+/*about us section */
 
 #our-club {
     max-height: 600px;
@@ -140,6 +147,8 @@ hr {
     margin: 20px;
 }
 
+/* classes divs*/
+
 #classes{
     text-align: left;
     font-size: 100%;
@@ -169,6 +178,8 @@ padding-left: 10px;
 
 
 }
+
+/* contact*/
 
 #contact {
     margin-bottom: 1.875rem;
@@ -200,6 +211,7 @@ padding-left: 10px;
     display: block;
 }
 
+/* text style*/
 p {
 text-align: left;
 padding-left: 20px;
@@ -210,11 +222,15 @@ width: 80%;
 
 }
 
+/* div style*/
+
 div {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/*Footer - Social Media Links*/
 
 footer {
     background-color: #008080;
@@ -241,6 +257,7 @@ footer {
     color: #ffffff;
 }
 
+/* form section style*/
 .form-section {
     height: 600px;
     width: 100%;
@@ -299,14 +316,16 @@ footer {
 
 }
 
+/*For screens from 590px wide and down*/
 
-@media screen and (min-width: 400px) {  
+@media screen and (max-widt: 479px) {
     #menu {
-        clear: left;
-        display: flex;
+        display: inline-block;
         margin-left: 1.875rem;
         margin-bottom: 1.25rem;
-        line-height: 1.563;
+        line-height: 1.563rem;
+        flex-direction: column;
+    
    
     }
      #style {
@@ -318,7 +337,7 @@ footer {
         #menu, #logo {
             line-height: 0.75rem;
             
-            }
+         }
 
 
 h1, h2 {
@@ -329,42 +348,27 @@ h1, h2 {
     color: #000;
 }
 
+#contact > div {
+    width: 100%;
+    clear: both;
+    height: 150px;
+    padding: 0;
+    display: flex;
+
+}
+
     .contact {
         width: inherit;
+        display: flex;
     }
 }
 
-@media screen and (min-width: 479px) {
-    #start {
-        text-align: center;
-        margin: 20px 0;
-    
-    }
-
-    p {
-        text-align: center;
-        background-color: #b0e0e6;
-        display: block;
-    }
-
-    #classes {
-        text-align: left;
-        clear: both;
-        padding-left: 20px;
-    
-
-    }
-
-    footer {
-        background-color: #008080;
-        text-align: center;
-    }
-
-}
+/*Media queries */
+/*For larger screens from 1200px wide and down*/
 
 @media screen and (max-width: 1200px) {
- 
-    #welcome {
+
+     #welcome {
         text-align: center;
         display: block;
 
