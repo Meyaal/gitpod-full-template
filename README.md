@@ -4,7 +4,18 @@
 
 Is a webbsite about a yoga studio in Stockholm that offers diffirent levels of Yoga classes. The club offers an joyful enviroment to recover. 
 
-Users of the website will be able to find all information about classes times, contact information, a sign up form and prices. 
+## User Stories
+
+### First Time Visitor Goals
+a. As a First Time Visitor, I want to easily understand the man purpose of the site and learn more about the club. 
+
+b. As a First Time Visitor of the website, I want to easily navigate throughout the site to find content.
+
+c. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on socialmedia to determine how trusted and known they are. 
+
+
+
+
 
 
 
