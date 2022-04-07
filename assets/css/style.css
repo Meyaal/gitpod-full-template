@@ -26,14 +26,20 @@ body {
 
 /* header and logo */
 
-h1, h2 {
+h1, h2, h3 {
     font-family: oswald, sans-serif;
     text-transform: uppercase;
     letter-spacing: 0.25rem;
     color: #000;
     font-style: italic;
-    
+    text-align: center;
+
 }
+
+
+
+
+
 
 #logo {
   text-align: left;
@@ -74,7 +80,7 @@ line-height: 0.75rem;
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #008080;
+    border-bottom: 3px solid #008080;
     
     
 }
@@ -155,11 +161,7 @@ hr {
     font-style: oblique;
     background-color: #afeeee;
 }
-hr {
-    
-    margin: 20px;
 
-}
 
 /* classes divs*/
 
@@ -174,7 +176,7 @@ hr {
 th,
 td {
     border: 1px solid black;
-    background-color: #dcdcdc;
+    background-color: #afeeee;
     clear: both;
     padding-left: 0.625rem;
 
@@ -206,6 +208,16 @@ display: block;
 
 }
 
+/* image for conatct page */
+
+#image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-rfstudio-3820345.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+
 #contact h2 {
     display: block;
 }
@@ -218,7 +230,7 @@ background-color: #fff;
 text-transform: uppercase;
 width: 80%;
 word-spacing: 3px;
-background-color: #dcdcdc;
+background-color: #afeeee;
 font-weight: 600;
 
 }
@@ -365,9 +377,6 @@ h1, h2 {
     
 }
 
-hr {
-    display: none;
-}
 
 }
 
@@ -411,8 +420,5 @@ hr {
 
 }
 
-hr {
-    display: none;
-}
 
 }
