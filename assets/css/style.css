@@ -36,10 +36,10 @@ h1, h2, h3 {
 
 }
 
+.text {
+    background-color: #afeeee;
 
-
-
-
+}
 
 #logo {
   text-align: left;
@@ -138,12 +138,6 @@ flex-direction: column;
 }   
 
 
-hr {
- width: 100%;
- margin: 10px;
-
-} 
-
 #start {
     text-align: center;
     margin: 20px 0;
@@ -175,7 +169,7 @@ hr {
 
 th,
 td {
-    border: 1px solid black;
+    border: 3px solid black;
     background-color: #afeeee;
     clear: both;
     padding-left: 0.625rem;
@@ -190,6 +184,8 @@ width: 66%;
 margin: 0 auto;
 float: left;
 padding-left: 10px;
+text-transform: capitalize;
+font-style: italic;
 
 }
 
@@ -226,12 +222,12 @@ display: block;
 /* text style*/
 p {
 text-align: center;
-background-color: #fff;
-text-transform: uppercase;
+text-transform: capitalize;
 width: 80%;
 word-spacing: 3px;
-background-color: #afeeee;
 font-weight: 600;
+color: #000;
+background-color: #afeeee;
 
 }
 
@@ -284,6 +280,7 @@ footer {
     padding-left: 20px;
 
 
+
 }
 
 .form-section p {
@@ -291,23 +288,17 @@ footer {
 }   
 
 .input-container {
-    width: 80%;
+    max-width: 600px;
     padding: 10px 20px;
     margin: 20px;
     border-radius: 2px;
     border: 4px solid #000;
     display: flex;
     border-radius: 30px 20px;
+    
 
 }
 
-.input-container {
-    max-width: 600px;
-    width: 80%;
-    padding: 10px 20px;
-    margin: 20px;
-
-}
 .input-field {
     width: 80%;
     padding: 5px;
@@ -368,6 +359,7 @@ h1, h2 {
     width: 100%;
     clear: both;
     padding: 0;
+    margin: 0;
     display: flex;
 
 }
@@ -375,6 +367,26 @@ h1, h2 {
 .contact {
     display: flex;
     
+}
+
+.form-section {
+    height: auto;
+    max-width: 100%;
+    background: url('../images/pexels-ketut-subiyanto-4998821.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    flex: 100%;
+
+}
+
+#hero-image {
+    max-height: 400px;
+    width: 100%;
+    background: url('../images/pexels-ketut-subiyanto-4998821.jpg') no-repeat center center;
+    background-size: cover; 
+    overflow: hidden;
+
+
 }
 
 
@@ -420,5 +432,13 @@ h1, h2 {
 
 }
 
+#image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-rfstudio-3820345.jpg') no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+    padding-top: 40px;
+}
 
 }
