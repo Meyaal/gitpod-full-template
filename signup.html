@@ -81,15 +81,20 @@
             </div>
         
 
-            <form action="/action_page.php">
-            <label for="vinyasa flows">Vinyasa Flow</label>
-            <input type="checkbox" id="vinyasa Flow" name="fav_class" value="vinyasa flow"/>
-
-            <label for="soft yoga flow">Soft Yoga Flow</label>
-            <input type="checkbox" id="soft yoga flow" name="fav_class" value="soft yoga flow"/>
-
-            <label for="yin yoga">Yin Yoga</label>
-            <input type="checkbox" id="yin yoga" name="fav_class" value="yin yoga"/>
+            <form>
+                <fieldset>
+                  <legend>Choose your favorite class</legend>
+              
+                  <input type="radio" id="vinyasa flow" name="fav_class">
+                  <label for="vinyasa flow">Vinyasa Flow</label><br>
+              
+                  <input type="radio" id="soft yoga flow" name="fav_class">
+                  <label for="soft yoga flow">Soft Yoga Flow</label><br>
+              
+                  <input type="radio" id="yin yoga" name="fav_class">
+                  <label for="yin yoga">Yin Yoga</label><br>
+                </fieldset>
+              </form>
 
         
 
