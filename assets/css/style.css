@@ -284,7 +284,7 @@ footer {
 }
 
 .form-section p {
-    font-weight: 400;
+    font-weight: bold;
 }   
 
 .input-container {
@@ -319,6 +319,7 @@ footer {
     display: flex;
 
 }
+
 
 
 /*Media queries */
