@@ -2,7 +2,7 @@
 
 ## Yoga Mayoo
 
-Is a webbsite about a small yoga studio in Stockholm that offers yoga classes. 
+Is a webbsite about a small yoga studio in Stockholm that offers yoga classes. The site is basic and clear.
 
 *** 
 
@@ -69,6 +69,9 @@ The second image conveys a calm and healthy yoga in nature. Nature is an importa
 ### Classes 
 * The section contains a timetable for which days and times the yoga classes take place.
 
+### Prices
+* The section has gott a list with information about membership prices. 
+
 ### The Footer
 
 * The footer section includes links to the relevant social media sites for Mayoo Yoga. The links will open to a new tab to allow easy navigation for the user.
@@ -130,7 +133,7 @@ The site is responsive on different screens sizes. It looks good and functions o
 The form on Join us page is confirmed that it works requires entries in every field will only accept an email in the field. The user can choose on of the buttons for the different classe. The Submit button is working.
 
 
-### The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. I'll leave a screenshot in case the link doesn't work.
+#### The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. I'll leave a screenshot in case the link doesn't work.
 
 * W3C HTML Validator.
 
@@ -164,6 +167,8 @@ The form on Join us page is confirmed that it works requires entries in every fi
 * The code to make the menu was taken from the Love Running project. 
 
 * W3Schools
+* Mmdn Resources for Developers,
+by Developers.
 
 ## Lighthouse Testing
 

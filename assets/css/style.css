@@ -256,6 +256,12 @@ footer {
     color: #ffffff;
 }
 
+li {
+    list-style-type: circle;
+    
+}
+
+
 /* form section style*/
 .form-section {
     height: 600px;
