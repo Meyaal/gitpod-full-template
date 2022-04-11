@@ -186,16 +186,17 @@ inline-style
 *** 
 
 ## Testing 
+***
 
 ### The site has been tested and it's working on different browsers like Chrome, Firefox and Safari.
 
 ### Responsivness
 
-The site is responsive on different screens sizes. It looks good and functions on standard screen sizes using devtools devise toolbar. 
+* The site is responsive on different screens sizes. It looks good and functions on standard screen sizes using devtools devise toolbar. 
 
 ### The Form
 
-The form on Join us page is confirmed that it works requires entries in every field will only accept an email in the field. The user can choose on of the buttons for the different classe. The Submit button is working.
+* The form on Join us page is confirmed that it works requires entries in every field will only accept an email in the field. The user can choose on of the buttons for the different classe. The Submit button is working.
 
 ### Code Validation
 #### The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
@@ -229,12 +230,39 @@ inline-style:
 
 ***
 
+### Manual Testing
+In addition to the automated process above, manual testing was carried out on the site as well.
 
+#### Naviagtion Menu
+
+* Verified that all the links link to the appropriate page with no broken links on all pages.
+* Verified that the active page is highlighted.
+Verified that the navigation bar is full responsive.
+
+### Home Page
+
+* Verified that the Hero image and is fully responsive.
+* Verified that all the elements are fully responsive
+on Contact page and Join Us page.
+
+* Verified that contact form cannot be submitted without the required information (First Name, Last Name and Email Address)
+* Verified that once the information is submitted via contact form, that the POST function works correctly.
+
+
+### Footer
+
+* Verified that the social media links are all linked properly to the releveant social media home pages.
+* Verified that all the social media links open in a new tab.
 
 ## Unfixed Bugs
 
 * The top af the image on Join Us page is not visible, the top of the image is visible on smaller screens. 
 * A white gap can be seen to the right of the footer and navigation bar as a result.
+
+* The value in lighthouse generator of the performance is 82%, and for the SEO is 89%. These values needs to be improved. I am aware about that values are poor and need to improves.I have been i contact with student Turtor to get some assistance with that. The advice that I have got was as long as code is passed validation it should be fine for now.
+
+
+
 
 ***
 
@@ -244,6 +272,12 @@ inline-style:
 * In the GitHub repository, navigate to the Settings tab
 * From the source section drop-down menu, select the Master Branch
 * Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+You'll find the link here
+
+[My site link]
+) 
+
 *** 
 
 ## Cresdits
@@ -266,16 +300,32 @@ by Developers.
 ## Lighthouse Testing
 
 inline-style:
-![alt text](doc/images/lighthouse.png):
+![alt text](doc/images/screenshoot.png)
 
-The perfomace value is 73% 
+The value of the performance is 82%, the message I can read is about network load becouse of the size of image. The SEO value is 89% and the message I can read is about meta "Document does not have a meta description". 
+
+I am aware about that values are poor and need to improves. 
+
+I have been i contact with student Turtor to get some assistance with that. The advice that I have got was as long as code is passed validation it should be fine for now.
+
+*** 
 
 
 
 
 ## Media
 
+Images used for the site are from Pexels.com
+[pexels.com](https://www.pexels.com)
+ 
+
+
+
 ## Acknowledgements
+
+Code Institute mentors and tutors for their assistance in getting me this far in the course. All the folk in the Code Institute Slack for their invaluable input to their fellow members development.
+
+
 
 
 

@@ -13,10 +13,7 @@ html, body {
     overflow-x: hidden;
     overflow-y: auto;
 }
-
 /*body*/
-
-
 body {
  font-family: lato, sans-serif;
  font-weight: 300;
@@ -33,12 +30,10 @@ h1, h2, h3 {
     color: #000;
     font-style: italic;
     text-align: center;
-
 }
 
 .text {
     background-color: #afeeee;
-
 }
 
 #logo {
@@ -48,7 +43,6 @@ h1, h2, h3 {
   padding-left: 10px;
   
 }
-
 /* add style to menu navigation links*/
 
 #menu {
@@ -56,14 +50,11 @@ h1, h2, h3 {
  letter-spacing: 4px;
  padding-top: 20px;
  display: inline-flex;
-
 }
 
 #menu, #logo {
 line-height: 0.75rem;
-
 }
-
 
 #menu li {
     display: flex;
@@ -78,11 +69,8 @@ line-height: 0.75rem;
  color: inherit;
 
 }
-
 #menu a:hover {
     border-bottom: 3px solid #008080;
-    
-    
 }
 
 .active {
@@ -93,25 +81,19 @@ line-height: 0.75rem;
     text-shadow: 0 0 0.6rem #fff;
     
 }
-
 /*hero image*/
-
 #hero-image {
     height: 600px;
     width: 100%;
     background: url('../images/pexels-ketut-subiyanto-4998821.jpg') no-repeat center center;
     background-size: cover; 
     overflow: hidden;
-
-
 }
 
 /*about us section */
 
 #our-club {
     text-align: left;
-    
-    
 }
 
 #style {
@@ -126,8 +108,6 @@ flex-direction: column;
     font-size: 200%;
 
 }   
-
-
 #start {
     text-align: center;
     margin: 20px 0;
@@ -140,21 +120,16 @@ flex-direction: column;
     padding-left: 20px;
 
 }
-
 .touch {
     font-style: oblique;
     background-color: #afeeee;
 }
-
-
 /* classes divs*/
-
 #classes{
     text-align: left;
     font-size: 100%;
     clear: both;
     padding-left: 1.25rem;
-
 }
 
 th,
@@ -163,8 +138,6 @@ td {
     background-color: #afeeee;
     clear: both;
     padding-left: 0.625rem;
-
-    
 }
 
 .text-center {
@@ -176,23 +149,14 @@ float: left;
 padding-left: 10px;
 text-transform: capitalize;
 font-style: italic;
-
 }
-
 /*contact information*/
-
 #contact {
-    
-display: block;
-
+ display: block;
 }
-
-
 .contact {
     justify-content: center;
-
 }
-
 /* image for conatct page */
 
 #image {
@@ -206,8 +170,6 @@ display: block;
 #contact h2 {
     display: block;
 }
-
-
 /* text style*/
 p {
 text-align: center;
@@ -217,11 +179,8 @@ word-spacing: 3px;
 font-weight: 600;
 color: #000;
 background-color: #afeeee;
-
 }
-
 /* div style*/
-
 div {
     display: flex;
     flex-direction: column;
@@ -237,7 +196,6 @@ footer {
     position: absolute;
     padding-top: 10px;
     margin-bottom: 30px;
-
 }
 
 .social-networks {
@@ -259,8 +217,6 @@ li {
     list-style-type: circle;
     
 }
-
-
 /* form section style*/
 .form-section {
     height: 600px;
@@ -268,7 +224,6 @@ li {
     background: url('../images/pexels-ketut-subiyanto-4998821.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 
 .input-container {
@@ -277,9 +232,7 @@ li {
     margin: 20px;
     border: 4px solid #000;
     display: flex;
-    border-radius: 30px 20px;
-    
-
+    border-radius: 30px 20px 
 }
 
 .input-field {
@@ -290,8 +243,6 @@ li {
     background-color: #fff;
 
 }
-
-
 .join-button {
     background-color: #008080;
     color: white;
@@ -307,7 +258,6 @@ legend {
     background-color: #008080;
     color: #fff;
     padding: 10px 10px
-
 }
 
 fieldset {
@@ -317,16 +267,7 @@ flex-direction: column;
 border-radius: 10px 10px;
 display: inline-table;
 margin-left: 3px;
-
-
 }
-
-
-
-
-
-
-
 /*Media queries */
 /*For screens from 479px wide and down*/
 
@@ -337,9 +278,7 @@ margin-left: 3px;
         margin-bottom: 1.25rem;
         line-height: 1.563rem;
         flex-direction: column;
-    
-   
-    }
+}
      #style {
         display: flex;
         justify-content: space-between;
@@ -367,7 +306,6 @@ h1, h2 {
     padding: 0;
     margin: 0;
     display: flex;
-
 }
 
 .contact {
@@ -382,7 +320,6 @@ h1, h2 {
     background-size: cover;
     background-position: center;
     flex: 100%;
-
 }
 
 #hero-image {
@@ -391,8 +328,6 @@ h1, h2 {
     background: url('../images/pexels-ketut-subiyanto-4998821.jpg') no-repeat center center;
     background-size: cover; 
     overflow: hidden;
-
-
 }
 }
 
@@ -400,13 +335,10 @@ h1, h2 {
 /*For larger screens from 1200px wide and down*/
 
 @media screen and (max-width: 1208px) {
-
-
-     #welcome {
+   #welcome {
         text-align: center;
         display: block;
-
-}
+    }
 
 #start #list {
     float: left;
@@ -435,7 +367,6 @@ h1, h2 {
 
 
 }
-
 #image {
     height: 600px;
     width: 100%;
