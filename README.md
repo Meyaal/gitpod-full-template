@@ -259,8 +259,6 @@ on Contact page and Join Us page.
 * The top af the image on Join Us page is not visible, the top of the image is visible on smaller screens. 
 * A white gap can be seen to the right of the footer and navigation bar as a result.
 
-* The value in lighthouse generator of the performance is 82%, and for the SEO is 89%. These values needs to be improved. I am aware about that values are poor and need to improves.I have been i contact with student Turtor to get some assistance with that. The advice that I have got was as long as code is passed validation it should be fine for now.
-
 
 
 
@@ -307,6 +305,15 @@ The value of the performance is 82%, the message I can read is about network loa
 I am aware about that values are poor and need to improves. 
 
 I have been i contact with student Turtor to get some assistance with that. The advice that I have got was as long as code is passed validation it should be fine for now.
+
+I tried to fix by reading the message showed on lighthouse about the values. I tried to minimize my CSS file by removing white spaces, but it didn't help to change the value. 
+
+inline-style
+Inline-style: 
+![alt text](doc/images/SEO.png)
+
+
+
 
 *** 
 
