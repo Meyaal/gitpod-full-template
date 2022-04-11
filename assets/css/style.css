@@ -169,7 +169,7 @@ font-style: italic;
 p {
 text-align: center;
 text-transform: capitalize;
-width: 40%;
+width: 80%;
 word-spacing: 3px;
 color: #000;
 background-color: #afeeee;
@@ -321,6 +321,14 @@ h1, h2 {
     background: url('../images/pexels-ketut-subiyanto-4998821.jpg') no-repeat center center;
     background-size: cover; 
     overflow: hidden;
+}
+.input-container {
+    width: 300px;
+    padding: 10px 20px;
+    margin: 20px;
+    border: 4px solid #000;
+    display: flex;
+    border-radius: 30px 20px 
 }
 }
 

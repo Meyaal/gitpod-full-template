@@ -90,14 +90,14 @@ inline-style:
 * The user will find short information about the club below the hero image.
 
 inline-style
-![alt text](doc/images/Ska%CC%88rmavbild%20about%20us.png)
+![alt text](doc/images/screenshot%20about%20us%20choose%20a%20class.png)
 
 
 
 ### Chooce a class
 
 inline-style
-![alt text](doc/images/Ska%CC%88rmavbild%20choose%20a%20class.png)
+![alt text](doc/images/screenshot%20about%20us%20choose%20a%20class.png)
 
 
 
@@ -114,7 +114,7 @@ inline-style
 ### The Footer
 
 inline-style
-![alt text](doc/images/Screenshoot%20footer.png)
+![alt text](doc/images/screenshot%20contact%20section.png)
 
 * The Footer contains the social media links.
 
@@ -137,7 +137,7 @@ inline-style
 ### Join Us 
 
 inline-style
-![alt text](doc/images/Join%20Us.png)
+![alt text](doc/images/Join%20us%20page.png)
 
 * This page contains form that user can fill in name, surname and email address.
 
@@ -306,7 +306,7 @@ I am aware about that values are poor and need to improves.
 
 I have been i contact with student Turtor to get some assistance with that. The advice that I have got was as long as code is passed validation it should be fine for now.
 
-I tried to fix by reading the message showed on lighthouse about the values. I tried to minimize my CSS file by removing white spaces, but it didn't help to change the value. 
+I tried to fix by reading the message showed on lighthouse about the values. I tried to minimize my CSS file by removing white spaces, but it didn't help to change the value. I changed size for input-container, the fieldset and the size of logo to minimize the load of network, but it didn't help so much. 
 
 inline-style
 Inline-style: 
