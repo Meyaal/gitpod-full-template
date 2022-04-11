@@ -212,7 +212,7 @@ inline-style:
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-04-10%20kl.%2012.15.24.png)
 
 inline-style:
-![alt text](doc/images/screenshoot%20sign%20up.png)
+![alt text](doc/images/screenshot%20contact.html.png)
 
 ***
 
@@ -261,7 +261,17 @@ inline-style:
 * The code to make the fieldset in form is from Mmdn Resources for Developers,
 by Developers.
 
+***
+
 ## Lighthouse Testing
+
+inline-style:
+![alt text](doc/images/lighthouse.png):
+
+The perfomace value is 73% 
+
+
+
 
 ## Media
 
