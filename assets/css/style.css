@@ -38,7 +38,7 @@ h1, h2, h3 {
 
 #logo {
   text-align: left;
-  font-size: 100%;
+  font-size: 150%;
   padding-top: 20px;
   padding-left: 10px;
   
@@ -100,7 +100,7 @@ flex-direction: column;
 
 #welcome {
     text-align: center;
-    font-size: 100%;
+    font-size: 150%;
 
 }   
 #start {

@@ -2,7 +2,7 @@
 
 ## Yoga Mayoo
 
-Is a webbsite about a small yoga studio in Stockholm that offers yoga classes. The site is basic and clear.
+Is a webbsite about a small yoga studio in Stockholm that offers yoga classes. The site is basic and clear. 
 
 Inline-style: 
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-04-10%20kl.%2012.31.10.png)
@@ -63,7 +63,7 @@ The second image conveys a calm and healthy yoga in nature. Nature is an importa
 
 
 inline-style:
-![alt text](doc/images/Ska%CC%88rmavbild%202022-04-10%20kl.%2012.42.44.png)
+![alt text](doc/images/home.png)
 
 
 
@@ -72,49 +72,54 @@ inline-style:
 * Featured on all three pages, the full responsive navigation bar includes links to the Home page, Contact page and Join Us page and is identical in each page to allow for easy navigation.
 * The navbar will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-* Each page, except the Home Page, has a clear heading when landing on the page and short paragraph introducing the content. The language, colour and design used is intended to be friendly and easy to understand.
-
 * Each page has a clear heading when landing on the page. The language, colour and design used is intended to be friendly and easy to understand.
 
 
-
-
-
 ## Yoga Mayoo
+***
 
 ### The landing page image
 
 * There is a large hero image chosen for its' style, colour scheme and tone to match the website itself and it's immediately visible.
 
+
+inline-style:
+![alt text](doc/images/home.png)
+
+
+
+### About Us & Chooce a class
+
 ### About Us
-* The user will find short information about the club below the hero image.
+* User will find short information about the club below the hero image.
 
-inline-style
-![alt text](doc/images/screenshot%20about%20us%20choose%20a%20class.png)
-
-
-
-### Chooce a class
-
-inline-style
-![alt text](doc/images/screenshot%20about%20us%20choose%20a%20class.png)
+inline-style:
+![alt text](doc/images/about%20us%20classes.png)
 
 
-
+### Choose a class
 
 * The section contains descriptive information of each class depending on the needs of the user. 
 * There are three different classes with text on what to expect from each class
 
+### Classes & Prices
+
 ### Classes 
 * The section contains a timetable for which times the yoga classes take place.
+
+
 
 ### Prices
 * The section has gott a list with information about membership prices. 
 
+inline-style:
+![alt text](doc/images/times%20and%20prices.png)
+
+
 ### The Footer
 
-inline-style
-![alt text](doc/images/screenshot%20contact%20section.png)
+inline-style:
+![alt text](doc/images/footer.png)
 
 * The Footer contains the social media links.
 
@@ -132,6 +137,8 @@ inline-style
 * This page has information about the adress, a phone number and emailadress for the club. 
 
 * It's clean and easy to find the contact information. 
+
+* It has a heading below the image with motivational text.
 
 
 ### Join Us 
@@ -171,10 +178,15 @@ inline-style
 1. Google Fonts: 
 
 * Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+[Google fonts](https://fonts.google.com/) 
+
 
 2. Font Awesome:
 
 * Font Awesome was used on all pages for social media links throughout the website to add icons for aesthetic and UX purposes.
+[Font Awesome](https://fontawesome.com/) 
+
+
 
 3. Git: 
 
@@ -182,6 +194,8 @@ inline-style
 
 4. Github: 
 * GitHub is used to store the projects code after being pushed from Git.
+[Github](https://github.com/Meyaal/gitpod-full-template) 
+
 
 *** 
 
@@ -196,15 +210,19 @@ inline-style
 
 ### The Form
 
-* The form on Join us page is confirmed that it works requires entries in every field will only accept an email in the field. The user can choose on of the buttons for the different classe. The Submit button is working.
+* The form on Join us page is confirmed that it works requires entries in every field will only accept an email in the field. The user can choose on of the buttons for the different classe. The Submit button is working. It's possible to select only one single class.
+
+***
 
 ### Code Validation
 #### The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
 
-W3C HTML Validator.
+W3C HTML Validator. 
+[The W3C Markup Validation Service](https://validator.w3.org/) 
+
 
 ### HTML
- No errors were returned when passing through the official
+ No errors were returned when passing through the official. 
 
 inline-style:
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-04-10%20kl.%2010.27.28.png)
@@ -220,6 +238,8 @@ inline-style:
 
 
  W3C CSS Validator
+
+ [CSS Validation Service](https://jigsaw.w3.org/css-validator/)
 
  ### CSS
 
@@ -248,16 +268,33 @@ on Contact page and Join Us page.
 * Verified that contact form cannot be submitted without the required information (First Name, Last Name and Email Address)
 * Verified that once the information is submitted via contact form, that the POST function works correctly.
 
+inline-style:
+![alt text](doc/images/Ska%CC%88rmavbild%202022-04-11%20kl.%2018.16.20.png)
+
+
+
+
 
 ### Footer
 
 * Verified that the social media links are all linked properly to the releveant social media home pages.
 * Verified that all the social media links open in a new tab.
+*** 
 
-## Unfixed Bugs
+## Known Bugs
 
 * The top af the image on Join Us page is not visible, the top of the image is visible on smaller screens. 
 * A white gap can be seen to the right of the footer and navigation bar as a result.
+***
+## Fixed Bugs
+
+This project has been submited once before by 22/02/20, but but due to some errors it has not been approved. The following error has been corrected
+
+1. Website is limited to less than 3 pages/Tabs. The website has got three pages now.
+2. Doesn’t work well across various devices / screen sizes. The website is fully responsive by now.
+3. Code comments missing for different sections. Comments have been added to code throught the project.
+4. The thought and purpose behind the project are not evident and difficult to comprehend. I have developed the purpose of the website.
+5. README file is lacking in detail for the required sections. I have update README with all the required sections exept "Making a Local Clone". 
 
 
 
@@ -289,32 +326,33 @@ You'll find the link here
 
 * The code to make the menu was taken from the Love Running project. 
 
-* W3Schools
+* W3Schools [W3Schools](https://www.w3schools.com/)
 * The code to make the fieldset in form is from Mmdn Resources for Developers,
 by Developers.
+[MDN](https://developer.mozilla.org/en-US/)
+
 
 ***
 
 ## Lighthouse Testing
 
 inline-style:
-![alt text](doc/images/screenshoot.png)
+![alt text](doc/images/screenshoot%20lighthouse.png)
 
-The value of the performance is 82%, the message I can read is about network load becouse of the size of image. The SEO value is 89% and the message I can read is about meta "Document does not have a meta description". 
+The rate of the performance is 80%, the message I can read is about network load becouse of the size of image. The SEO value is 89% and the message I can read is about meta "Document does not have a meta description". 
 
 I am aware about that values are poor and need to improves. 
 
-I have been i contact with student Turtor to get some assistance with that. The advice that I have got was as long as code is passed validation it should be fine for now.
+I have been i contact with student Turtor to get some assistance with that. The advice that I have got was as long as code is passed validation it should be fine for the project.
 
-I tried to fix by reading the message showed on lighthouse about the values. I tried to minimize my CSS file by removing white spaces, but it didn't help to change the value. I changed size for input-container, the fieldset and the size of logo to minimize the load of network, but it didn't help so much. 
+I tried to fix by reading the messages showed on lighthouse about the rates. I tried to minimize my CSS file by removing white spaces, but it didn't help to change the rate. I changed size for input-container, the fieldset and the size of logo to minimize the load of network, but it didn't help at all. 
 
-inline-style
+
 Inline-style: 
-![alt text](doc/images/SEO.png)
+![alt text](doc/images/performance.png)
 
-
-
-
+Inline-style:
+![alt text](doc/images/seo.png)
 *** 
 
 
@@ -324,13 +362,16 @@ Inline-style:
 
 Images used for the site are from Pexels.com
 [pexels.com](https://www.pexels.com)
+
+Description about the classes are from webbsite [Nadi Yoga](https://www.studioyoganadi.com/) a Yoga Studio in Stockholm.
  
 
-
+***
 
 ## Acknowledgements
 
-Code Institute mentors and tutors for their assistance in getting me this far in the course. All the folk in the Code Institute Slack for their invaluable input to their fellow members development.
+I'll thank Code Institute mentors and tutors for their assistance in getting me this far in the course. All the folk in the Code Institute Slack for their invaluable input to their fellow members development.
+
 
 
 
