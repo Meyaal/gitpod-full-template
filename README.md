@@ -8,7 +8,7 @@ Inline-style:
 ![alt text](doc/images/Ska%CC%88rmavbild%202022-04-10%20kl.%2012.31.10.png)
 
 
-*** 
+
 
 ## Users Stories
 
@@ -164,7 +164,7 @@ inline-style
 * Create mailto function for the email adress to open the devices preferred email software.
 
 
-***
+
 
 ## Technologies Used
 
@@ -197,10 +197,10 @@ inline-style
 [Github](https://github.com/Meyaal/gitpod-full-template) 
 
 
-*** 
+
 
 ## Testing 
-***
+
 
 ### The site has been tested and it's working on different browsers like Chrome, Firefox and Safari.
 
@@ -212,7 +212,7 @@ inline-style
 
 * The form on Join us page is confirmed that it works requires entries in every field will only accept an email in the field. The user can choose on of the buttons for the different classe. The Submit button is working. It's possible to select only one single class.
 
-***
+
 
 ### Code Validation
 #### The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project. 
@@ -233,7 +233,6 @@ inline-style:
 inline-style:
 ![alt text](doc/images/screenshot%20contact.html.png)
 
-***
 
 
 
@@ -248,7 +247,6 @@ inline-style:
 inline-style:
 ![alt text](doc/images/screenshoot%20css.png)
 
-***
 
 ### Manual Testing
 In addition to the automated process above, manual testing was carried out on the site as well.
@@ -279,7 +277,7 @@ inline-style:
 
 * Verified that the social media links are all linked properly to the releveant social media home pages.
 * Verified that all the social media links open in a new tab.
-*** 
+
 
 ## Known Bugs
 
@@ -298,9 +296,6 @@ This project has been submitted once before by 22/02/20, but but due to some err
 
 
 
-
-***
-
 ## Deployment
 
 * The site was deployed to GitHub pages. The steps to deploy are as follows:
@@ -312,8 +307,6 @@ You'll find the link here
 
 [My site link](https://meyaal.github.io/gitpod-full-template/)
  
-
-*** 
 
 ## Cresdits
 
@@ -330,9 +323,6 @@ You'll find the link here
 * The code to make the fieldset in form is from Mmdn Resources for Developers,
 by Developers.
 [MDN](https://developer.mozilla.org/en-US/)
-
-
-***
 
 ## Lighthouse Testing
 
@@ -353,9 +343,8 @@ Inline-style:
 
 Inline-style:
 ![alt text](doc/images/seo.png)
-*** 
 
-*** 
+
 
 ## Media
 
@@ -364,8 +353,6 @@ Images used for the site are from Pexels.com
 
 Description about the classes are from webbsite [Nadi Yoga](https://www.studioyoganadi.com/) a Yoga Studio in Stockholm.
  
-
-***
 
 ## Acknowledgements
 
