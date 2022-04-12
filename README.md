@@ -288,7 +288,7 @@ inline-style:
 ***
 ## Fixed Bugs
 
-This project has been submited once before by 22/02/20, but but due to some errors it has not been approved. The following error has been corrected
+This project has been submitted once before by 22/02/20, but but due to some errors it has not been approved. The following error has been corrected
 
 1. Website is limited to less than 3 pages/Tabs. The website has got three pages now.
 2. Doesn’t work well across various devices / screen sizes. The website is fully responsive by now.
