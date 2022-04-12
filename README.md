@@ -310,8 +310,8 @@ This project has been submited once before by 22/02/20, but but due to some erro
 
 You'll find the link here
 
-[My site link]
-) 
+[My site link](https://meyaal.github.io/gitpod-full-template/)
+ 
 
 *** 
 
@@ -355,8 +355,7 @@ Inline-style:
 ![alt text](doc/images/seo.png)
 *** 
 
-
-
+*** 
 
 ## Media
 
